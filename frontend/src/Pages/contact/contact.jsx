@@ -1,8 +1,8 @@
 import React from 'react'
-import './contact.csss'
+import './contact.css'
 const contact = () => {
     return (
-        <div>contact</div>
+        <div>contact Hello</div>
     )
 }
 

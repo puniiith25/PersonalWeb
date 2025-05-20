@@ -1,8 +1,8 @@
 import React from 'react'
 import Prfile_image from '/Users/punith25/VS-CODE/PersonalWeb/frontend/src/assets/Profile_image.png'
-import Home from '/Users/punith25/VS-CODE/PersonalWeb/frontend/src/Pages/Home/Home.jsx'
-import Link from 'react-router-dom'
+
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <div className="Navbar">
@@ -12,10 +12,11 @@ const NavBar = () => {
             </div>
             <div className="Navbar-right">
                 <ul className="Nav-list">
-                    <Link to={Home}><li>Home</li></Link>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <Link className='Route-Link' to='/'>Home</Link>
+                    <Link className='Route-Link' to='/About'>About</Link>
+                    <Link className='Route-Link' to='/Portfolio'>Portfolio</Link>
+                    <Link className='Route-Link' to='/Contacts'>Contact</Link>
+
                 </ul>
             </div>
         </div>

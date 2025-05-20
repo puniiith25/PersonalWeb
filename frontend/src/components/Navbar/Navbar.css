@@ -31,11 +31,15 @@
     font-size: 18px;
     display: flex;
     gap: 50px;
-    list-style: none;
+
+
 
 
 }
 
-.Nav-list li {
+.Route-Link {
     cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+
 }
