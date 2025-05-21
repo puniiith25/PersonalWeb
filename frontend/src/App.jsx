@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import Contacts from './Pages/contact/contact'
 import About from './Pages/About/About'
 import Portfolio from './Pages/Portfolio/Portfolio'
+
 const App = () => {
   return (
     <>
