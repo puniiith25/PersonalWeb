@@ -1,4 +1,35 @@
 .Home {
+    height: 100vh;
+    min-height: 100%;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-    padding-bottom: 2000px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-img img {
+    border: 2px solid #fff;
+    border-radius: 150px;
+    padding: 7px;
+    width: 300px;
+
+}
+
+.main-img {
+    margin: 150px 0px 150px 130px;
+
+}
+
+.Main-text {
+    padding-right: 70px;
+}
+
+#Hi {
+    border: 2px solid #fff;
+    padding: 2px 5px 2px 5px;
+    width: 85px;
+    background-color: #fff;
+    color: #020024;
+    border-radius: 8px;
 }

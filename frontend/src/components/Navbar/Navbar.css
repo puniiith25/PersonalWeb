@@ -1,11 +1,12 @@
 .Navbar {
     width: 100%;
     color: aliceblue;
-    padding: 10px 80px 8px 10px;
+    padding: 30px 80px 8px 30px;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    position: fixed;
 
 }
 
@@ -42,4 +43,8 @@
     color: aliceblue;
     text-decoration: none;
 
+}
+
+.dark-nav {
+    background-color: black;
 }

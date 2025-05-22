@@ -4,6 +4,7 @@ import Prfile_image from '/Users/punith25/VS-CODE/PersonalWeb/frontend/src/asset
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
+   
     return (
         <div className="Navbar">
             <div className="Navbar-left">
