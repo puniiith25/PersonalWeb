@@ -13,10 +13,10 @@ const NavBar = () => {
             </div>
             <div className="Navbar-right">
                 <ul className="Nav-list">
-                    <Link className='Route-Link' to='/'>Home</Link>
-                    <Link className='Route-Link' to='/About'>About</Link>
-                    <Link className='Route-Link' to='/Portfolio'>Portfolio</Link>
-                    <Link className='Route-Link' to='/Contacts'>Contact</Link>
+                    <li><a className='Route-Link' href="#home">Home</a></li>
+                    <li><a className='Route-Link' href="#about">About</a></li>
+                    <li><a className='Route-Link' href="#portfolio">Portfolio</a></li>
+                    <li><a className='Route-Link' href="#contact">Contact</a></li>
 
                 </ul>
 

@@ -10,13 +10,11 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Portfolio' element={<Portfolio />} />
-        <Route path='/contacts' element={<Contacts />} />
-      </Routes>
-      <About />
+      <NavBar />
+      <section id="home"><Home /></section>
+      <section id="about"><About /></section>
+      <section id="portfolio"><Portfolio /></section>
+      <section id="contact"><Contacts /></section>
 
     </>
 

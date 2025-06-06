@@ -48,3 +48,7 @@
 .dark-nav {
     background-color: black;
 }
+
+li {
+    list-style: none;
+}
